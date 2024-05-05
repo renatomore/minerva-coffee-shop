@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Metropolis1920";
+  src: url("./font/Metropolis_1920.otf") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./font/Inter-Regular.ttf") format("woff2");
+}
+
+#root {
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  line-height: normal;
+  color: #120c00;
+  width: 100%;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfae3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
