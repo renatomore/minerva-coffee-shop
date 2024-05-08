@@ -1,0 +1,17 @@
+.homepage {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  .top-section {
+    background-image: url("src/assets/Background/top-background-image.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .bottom-section {
+    background-image: url("src/assets/Background/bottom-background-image.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

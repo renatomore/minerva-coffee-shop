@@ -2,7 +2,7 @@ import "./FindUs.scss";
 
 const FindUs = () => {
   return (
-    <div className="findUs-container">
+    <section className="findUs" id="find_us">
       <div className="title">
         <span>FIND US</span>
       </div>
@@ -13,7 +13,7 @@ const FindUs = () => {
           loading="lazy"
         ></iframe>
       </div>
-    </div>
+    </section>
   );
 };
 

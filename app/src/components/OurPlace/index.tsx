@@ -2,16 +2,16 @@ import "./OurPlace.scss";
 
 const OurPlace = () => {
   return (
-    <div className="ourplace-container">
+    <section className="ourplace" id="our_place">
       <img
-        className="background-frame"
+        className="top-frame"
         src="src/assets/OurPlace/frame.svg"
-        alt=""
+        alt="top-frame"
       />
-      <div className="ourplace-title">
+      <div className="title">
         <span>OUR PLACE</span>
       </div>
-      <div className="ourplace-text">
+      <div className="text">
         <p>
           Imagine entering a space where tradition and modernity meet to create
           a unique coffee experience. The walls are adorned with earthy tones
@@ -33,24 +33,24 @@ const OurPlace = () => {
           to your new favorite destination for moments of pause and inspiration.
         </p>
       </div>
-      <div className="ourplace-barista">
+      <div className="barista">
         <img src="src/assets/OurPlace/barista.svg" alt="" />
         <span>Leticia Salles</span>
       </div>
-      <div className="ourplace-main-banner">
+      <div className="main-banner">
         <img src="src/assets/OurPlace/banner-middle-01.svg" alt="" />
       </div>
-      <div className="ourplace-bottom-banners">
+      <div className="bottom-banners">
         <img src="src/assets/OurPlace/banner-middle-02.svg" alt="" />
         <img src="src/assets/OurPlace/banner-middle-03.svg" alt="" />
         <img src="src/assets/OurPlace/banner-middle-04.svg" alt="" />
       </div>
       <img
-        className="background-bottom-frame"
+        className="bottom-frame"
         src="src/assets/OurPlace/frame.svg"
-        alt=""
+        alt="bottom-frame"
       />
-    </div>
+    </section>
   );
 };
 
