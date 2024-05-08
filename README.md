@@ -1,30 +1,72 @@
-# React + TypeScript + Vite
+Certainly! Here's the Markdown version of the README:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+````markdown
+# Minerva Coffee Shop
 
-Currently, two official plugins are available:
+![Minerva Coffee Shop Preview](<Add Preview Image URL Here>)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Minerva Coffee Shop is a React-based web application for showcasing a coffee shop's products and services. It utilizes the latest technologies such as React 18.2, Vite 5.2, and Swiper 11.1 to provide a modern and responsive user experience.
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Responsive design for seamless browsing on all devices.
+- Interactive carousels powered by Swiper 11.1.
+- Fast development and hot module replacement with Vite 5.2.
+- Modern and intuitive user interface inspired by the Figma design.
+
+## Installation
+
+To install and run Minerva Coffee Shop locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd minerva-coffee-shop
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run the following command:
+
+```bash
+npm start
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+This will start the application on [http://localhost:3000](http://localhost:3000).
+
+## Technologies Used
+
+- React 18.2
+- Vite 5.2
+- Swiper 11.1
+- Figma (Design Inspiration)
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your proposed changes.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
