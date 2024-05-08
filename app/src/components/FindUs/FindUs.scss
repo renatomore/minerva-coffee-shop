@@ -1,0 +1,42 @@
+.findUs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 128px;
+
+  .title {
+    width: 190px;
+    margin-left: calc(50% - 95px);
+    margin-bottom: 59px;
+    span {
+      color: #1e1e1e;
+      text-shadow: 0px 4px 5.5px rgba(30, 30, 30, 0.5);
+      font-family: Metropolis1920;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .map {
+    position: relative;
+    width: 100%;
+    img {
+      position: absolute;
+      margin-left: calc(50% - 595px);
+      width: 1190px;
+      height: 787px;
+      flex-shrink: 0;
+      z-index: -1;
+    }
+    iframe {
+      margin-top: 22px;
+      margin-left: calc(50% - 562px);
+      width: 1120px;
+      height: 735px;
+      box-shadow: none;
+    }
+  }
+}
