@@ -8,6 +8,11 @@
   src: url("./font/Inter-Regular.ttf") format("woff2");
 }
 
+@font-face {
+  font-family: "Amiko";
+  src: url("./font/Amiko-Bold.ttf") format("woff2");
+}
+
 #root {
   font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
   line-height: normal;
@@ -17,6 +22,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

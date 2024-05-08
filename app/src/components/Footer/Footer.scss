@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  position: relative;
+  margin-bottom: 16px;
+  width: 100%;
+  height: 260px;
+  z-index: 1;
+
+  .background-frame {
+    position: absolute;
+    width: 98%;
+    z-index: 0;
+  }
+  .footer-content {
+    margin-top: 30px;
+    margin-left: 10%;
+    z-index: 2;
+    .title {
+      display: flex;
+      width: 256px;
+      padding: 8px;
+      align-items: center;
+      gap: 8px;
+      span {
+        color: var(--icon-Icon-02, #221700);
+        font-family: Amiko;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+    .links {
+      display: flex;
+      width: 256px;
+      height: 48px;
+      justify-content: center;
+      align-items: center;
+      gap: 24px;
+    }
+  }
+}
