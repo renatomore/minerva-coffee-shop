@@ -1,9 +1,6 @@
-Certainly! Here's the Markdown version of the README:
-
-````markdown
 # Minerva Coffee Shop
 
-![Minerva Coffee Shop Preview](<Add Preview Image URL Here>)
+![Minerva Coffee Shop Preview](documentation/assets/homepage.png)
 
 Minerva Coffee Shop is a React-based web application for showcasing a coffee shop's products and services. It utilizes the latest technologies such as React 18.2, Vite 5.2, and Swiper 11.1 to provide a modern and responsive user experience.
 
@@ -32,7 +29,6 @@ To install and run Minerva Coffee Shop locally, follow these steps:
    ```bash
    git clone <repository-url>
    ```
-````
 
 2. Navigate to the project directory:
 
