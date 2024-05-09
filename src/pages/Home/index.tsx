@@ -1,3 +1,5 @@
+import TopBackgroundImage from "../../assets/Background/top-background-image.svg";
+import BottomBackgroundImage from "../../assets/Background/bottom-background-image.svg";
 import Menu from "../../components/Menu";
 import Carrousel from "../../components/Carrousel";
 import AboutUs from "../../components/AboutUs";
@@ -9,7 +11,10 @@ import "./Home.scss";
 function Home() {
   return (
     <div className="homepage">
-      <section className="top-section">
+      <section
+        className="top-section"
+        style={{ backgroundImage: `url(${TopBackgroundImage})` }}
+      >
         <div
           style={{
             display: "flex",
@@ -24,7 +29,10 @@ function Home() {
         <AboutUs />
         <OurPlace />
       </section>
-      <section className="bottom-section">
+      <section
+        className="bottom-section"
+        style={{ backgroundImage: `url(${BottomBackgroundImage})` }}
+      >
         <FindUs />
         <Footer />
       </section>

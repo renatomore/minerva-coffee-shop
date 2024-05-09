@@ -1,3 +1,6 @@
+import First from "../../assets/AboutUs/first.svg";
+import Second from "../../assets/AboutUs/second.svg";
+import Third from "../../assets/AboutUs/third.svg";
 import "./AboutUs.scss";
 
 const AboutUs = () => {
@@ -8,11 +11,7 @@ const AboutUs = () => {
       </div>
 
       <div className="about-container">
-        <img
-          className="left-image"
-          src="src/assets/AboutUs/first.svg"
-          alt="coffee"
-        />
+        <img className="left-image" src={First} alt="coffee" />
         <div className="text">
           <span className="right">
             Welcome to Minerva coffeshop, where every cup is a journey to
@@ -32,14 +31,10 @@ const AboutUs = () => {
             blend awaits.
           </span>
         </div>
-        <img
-          className="right-image"
-          src="src/assets/AboutUs/second.svg"
-          alt="coffee"
-        />
+        <img className="right-image" src={Second} alt="coffee" />
       </div>
       <div className="about-container" style={{ marginBottom: "144px" }}>
-        <img src="src/assets/AboutUs/third.svg" alt="coffee" />
+        <img src={Third} alt="coffee" />
         <div className="fall-in-love">
           <div>FALL</div>
           <div>IN</div>

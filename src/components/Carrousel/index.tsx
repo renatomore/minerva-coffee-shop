@@ -2,6 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import Frame1 from "../../assets/Carrosel/Frame1.png";
+import Frame2 from "../../assets/Carrosel/Frame2.png";
+import Frame3 from "../../assets/Carrosel/Frame3.png";
 import "./Carrousel.scss";
 
 const Carrousel = () => {
@@ -20,13 +23,13 @@ const Carrousel = () => {
         modules={[Pagination, Autoplay]}
       >
         <SwiperSlide>
-          <img src="src/assets/Carrosel/Frame1.png" alt="" />
+          <img src={Frame1} alt="Frame1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="src/assets/Carrosel/Frame2.png" alt="" />
+          <img src={Frame2} alt="Frame2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="src/assets/Carrosel/Frame3.png" alt="" />
+          <img src={Frame3} alt="Frame3" />
         </SwiperSlide>
       </Swiper>
     </div>

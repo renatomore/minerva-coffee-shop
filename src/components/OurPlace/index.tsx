@@ -1,13 +1,21 @@
+import Frame from "../../assets/OurPlace/frame.svg";
+import Barista from "../../assets/OurPlace/barista.svg";
+import MainBanner from "../../assets/OurPlace/banner-middle-01.svg";
+import BottomBanner1 from "../../assets/OurPlace/banner-middle-02.svg";
+import BottomBanner2 from "../../assets/OurPlace/banner-middle-03.svg";
+import BottomBanner3 from "../../assets/OurPlace/banner-middle-04.svg";
+import Background from "../../assets/OurPlace/cover.svg";
+
 import "./OurPlace.scss";
 
 const OurPlace = () => {
   return (
-    <section className="ourplace" id="our_place">
-      <img
-        className="top-frame"
-        src="src/assets/OurPlace/frame.svg"
-        alt="top-frame"
-      />
+    <section
+      className="ourplace"
+      id="our_place"
+      style={{ backgroundImage: `url(${Background})` }}
+    >
+      <img className="top-frame" src={Frame} alt="top-frame" />
       <div className="title">
         <span>OUR PLACE</span>
       </div>
@@ -34,22 +42,18 @@ const OurPlace = () => {
         </p>
       </div>
       <div className="barista">
-        <img src="src/assets/OurPlace/barista.svg" alt="" />
+        <img src={Barista} alt="Barista Leticia Salles" />
         <span>Leticia Salles</span>
       </div>
       <div className="main-banner">
-        <img src="src/assets/OurPlace/banner-middle-01.svg" alt="" />
+        <img src={MainBanner} alt="Main Banner" />
       </div>
       <div className="bottom-banners">
-        <img src="src/assets/OurPlace/banner-middle-02.svg" alt="" />
-        <img src="src/assets/OurPlace/banner-middle-03.svg" alt="" />
-        <img src="src/assets/OurPlace/banner-middle-04.svg" alt="" />
+        <img src={BottomBanner1} alt="Bottom banner" />
+        <img src={BottomBanner2} alt="Bottom banner" />
+        <img src={BottomBanner3} alt="Bottom banner" />
       </div>
-      <img
-        className="bottom-frame"
-        src="src/assets/OurPlace/frame.svg"
-        alt="bottom-frame"
-      />
+      <img className="bottom-frame" src={Frame} alt="bottom-frame" />
     </section>
   );
 };

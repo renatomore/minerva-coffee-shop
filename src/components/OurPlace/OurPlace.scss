@@ -1,7 +1,6 @@
 .ourplace {
   position: relative;
-  background: var(--colour-brand-brown-3, #120c00);
-  background-image: url("src/assets/OurPlace/cover.svg");
+  background: #120c00;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -29,7 +28,7 @@
     padding-top: 125px;
     padding-left: calc(50% - 141px);
     margin-bottom: 85px;
-    color: var(--Text-Text-secundary, #9a8c0c);
+    color: #9a8c0c;
     font-family: Metropolis1920;
     font-size: 72px;
     font-style: normal;
@@ -45,7 +44,7 @@
     padding: 8px;
     justify-content: center;
     align-items: center;
-    color: var(--Text-Text-secundary, #9a8c0c);
+    color: #9a8c0c;
     font-family: Inter;
     font-size: 32px;
     font-style: normal;
@@ -64,7 +63,7 @@
       height: 291px;
     }
     span {
-      color: var(--Text-Text-secundary, #9a8c0c);
+      color: #9a8c0c;
       font-family: Inter;
       font-size: 40px;
       font-style: normal;
