@@ -9,6 +9,7 @@ export default defineConfig({
   build: {
     cssCodeSplit: false,
     modulePreload: false,
+    outDir: 'build',
   },
   server: {
     port,
