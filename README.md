@@ -7,6 +7,7 @@ Minerva Coffee Shop is a React-based web application for showcasing a coffee sho
 ## Table of Contents
 
 - [Features](#features)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -19,6 +20,10 @@ Minerva Coffee Shop is a React-based web application for showcasing a coffee sho
 - Interactive carousels powered by Swiper 11.1.
 - Fast development and hot module replacement with Vite 5.2.
 - Modern and intuitive user interface inspired by the Figma design.
+
+## Demo
+
+[View Demo](https://renatomore.github.io/minerva-coffee-shop/)
 
 ## Installation
 

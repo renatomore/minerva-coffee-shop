@@ -2,7 +2,7 @@
   "homepage": "https://renatomore.github.io/minerva-coffee-shop",
   "name": "minerva-coffee-shop",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
