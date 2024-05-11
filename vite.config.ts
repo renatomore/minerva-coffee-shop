@@ -6,10 +6,11 @@ const port = 3000;
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "/minerva-coffee-shop",
   build: {
     cssCodeSplit: false,
     modulePreload: false,
-    outDir: 'build',
+    outDir: 'dist',
   },
   server: {
     port,
