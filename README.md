@@ -2,7 +2,7 @@
 
 ![Minerva Coffee Shop Preview](documentation/assets/homepage.png)
 
-Minerva Coffee Shop is a React-based web application for showcasing a coffee shop's products and services. It utilizes the latest technologies such as React 18.2, Vite 5.2, and Swiper 11.1 to provide a modern and responsive user experience.
+Minerva Coffee Shop is a React-based web application for showcasing a coffee shop's products and services. It utilizes React 18.2, Vite 5.2, and Swiper 11.1 to provide a modern and responsive user experience.
 
 ## Table of Contents
 
